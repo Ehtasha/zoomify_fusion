@@ -1,39 +1,59 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# 👏 ZoomifyFusion [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/MIT) [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/xsahil03x/before_after/blob/master/LICENSE) [![Build Status](https://travis-ci.com/xsahil03x/before_after.svg?branch=master)](https://travis-ci.com/xsahil03x/before_after) [![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-blue.svg)](https://github.com/Solido/awesome-flutter) [![FlutterWeekly](https://img.shields.io/badge/Flutter%20Weekly-%2368-teal.svg)](https://mailchi.mp/flutterweekly/flutter-weekly-68)
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/25670178/61337576-978f1780-a853-11e9-9249-3637d0861ebb.gif" width="100%">
+</p>
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/xsahil03x) [![Twitter](https://img.shields.io/twitter/url/https/github.com/xsahil03x/giffy_dialog.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fxsahil03x%2Fgiffy_dialog)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+<p>This flutter package makes easier to display the differences between two images..</p>
 
-## Features
+Source code is **100% Dart**, and everything resides in
+the [/lib](https://github.com/xsahil03x/giffy_dialog/tree/master/lib) folder.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Live Demo: https://xsahil03x.github.io/before_after
 
-## Getting started
+### Show some :heart: and star the repo to support the project
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
-## Usage
+# 🔅 Gifs
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+|                                                                                                                                                 |                                                                                                                                                 |                                                                                                                                                 |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://github.com/Ehtasha/zoomify_fusion/blob/1f3c9284c0c2452bed76df856bcb5c22369f4e47/demo_pic_01.png" height="400" alt="Screenshot"/> | <img src="https://github.com/Ehtasha/zoomify_fusion/blob/1f3c9284c0c2452bed76df856bcb5c22369f4e47/demo_pic_02.png" height="400" alt="Screenshot"/> | <img src="https://github.com/Ehtasha/zoomify_fusion/blob/1f3c9284c0c2452bed76df856bcb5c22369f4e47/demo_pic03.png" height="400" alt="Screenshot"/> |
+|                                                                                                                                                 |                                                                                                                                                 |                                                                                                                                                 |
 
-```dart
-const like = 'sample';
+# 💻 Installation
+
+In the `dependencies:` section of your `pubspec.yaml`, add the following line:
+
+[![Version](https://img.shields.io/pub/v/before_after.svg)](https://pub.dartlang.org/packages/before_after)
+
+```yaml
+dependencies:
+  zoomify_fusion: <latest version>
 ```
 
-## Additional information
+# ❔ Usage
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+### Import this class
+
+```dart
+import 'package:zoomify_fusion/zoomify_fusion.dart';
+```
+
+### before after
+
+```dart
+ZoomifyFusion(
+        beforeImage: 'assets/after.jpg',
+        afterImage: 'assets/before.jpg',
+        needleImage: 'assets/needle_arrow.png',
+      ),
+```
+
+## 🎨 For any Query Contact at: ehtasham228@gmail.com
+
+# 📃 License
+
+[MIT License](LICENSE)
